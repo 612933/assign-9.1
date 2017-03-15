@@ -1,0 +1,35 @@
+1.why map reduce is rquired for pig programming
+Apache Pig is a high-level platform for creating programs that run on Apache Hadoop. 
+The language for this platform is called Pig Latin.so to ececute its hadoop jobs pig is map reduce is required. 
+2.advantage of pig ovwer map reduce
+1) developement time is decreased.
+2)Learning curve is not steep.
+3) it is procedural.
+4)execution can be controlled.
+5)even effective for large and unstructured data base.
+3. What is pig engine and what is its importance?
+Pig engine is a component of apache, it accepts the Pig Latin scripts as input and converts those scripts into MapReduce jobs.
+importance 
+Map reduce tasks can be performed easily.
+easy to learn.
+because of multi query approach cod elength is reduced.
+4. What are the modes of Pig execution?
+Local Mode
+In local mode all the files are installed and run from your local host and local file system. it doesn't reqiure hadop or HDFS.
+MapReduce Mode
+In Map reduce mode when we execute the Pig Latin statements to process the data a MapReduce job is invoked in the back-end to perform a particular operation on the data that exists in the HDFS.
+5.grunt shell in pig?
+ The Grunt shell is used in  Apache Pig  to write Pig Latin scripts.
+ 6. What are the features of Pig Latin language?
+Dynamic Invokers
+Memory Management
+Multi-Query Execution
+in multi query execution it is first parsed to determine if intermediate tasks can be combined to reduce the overall amount of work an d also scenarios are optimized.
+Explicit and Implicit Splits
+7. Is Pig latin commands case sensitive?
+case sensitive-1.The names (aliases) of relations and fields.2)The names of Pig Latin functions.3)Function names.
+case insensitive-1.names of parameters.2)kewords.
+8. What is a data flow language? 
+it is a programming  that models a program as a directed graph of the data flowing between operations 
+thus implementing dataflow principles and architecture.
+it is executed in space (imaginary factory line)
